@@ -63,13 +63,5 @@ Environment: Jupyter Notebook
 
 Version Control: Git + GitHub
 
-📁 Project Structure
-graphql
-Copy
-Edit
-├── data/                  # Raw and processed datasets
-├── notebooks/             # EDA and modeling notebooks
-├── scripts/               # Reusable Python modules (e.g., preprocessing, model)
-├── dashboards/            # Power BI/Tableau reports
-├── outputs/               # Charts and visual results
-├── README.md              # Project overview and instructions
+You can download the dataset from Kaggle here:
+Healthcare Provider Fraud Detection Dataset
