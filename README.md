@@ -65,3 +65,16 @@ Version Control: Git + GitHub
 
 You can download the dataset from Kaggle here:
 Healthcare Provider Fraud Detection Dataset
+## 📊 Healthcare Claims Anomaly Detection
+
+This end-to-end project analyzes Medicare claims data to detect potentially fraudulent healthcare providers. It applies both unsupervised (Isolation Forest) and supervised (Random Forest) machine learning models to identify anomalies in claim behavior.
+
+### 💡 Highlights:
+- Cleaned and explored real-world fraud labels
+- Aggregated Inpatient & Outpatient claims to engineer features
+- Created new features like average claim amounts and total reimbursements
+- Trained two models:
+  - Isolation Forest for anomaly detection
+  - Random Forest for supervised fraud classification
+- Visualized feature importance and confusion matrix
+- Modularized code into reusable scripts and organized everything in a professional GitHub layout
