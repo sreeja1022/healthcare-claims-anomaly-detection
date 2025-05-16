@@ -1,7 +1,7 @@
 from sklearn.ensemble import RandomForestClassifier, IsolationForest
 
-def train_isolation_forest(X):
-    iso = IsolationForest(contamination=0.1, random_state=42)
+def train_isolation_forest(X, contamination=0.1):
+    iso = IsolationForest(contamination=contamination, random_state=42)
     y_pred = iso.fit_predict(X)
     return [1 if x == -1 else 0 for x in y_pred]
 
